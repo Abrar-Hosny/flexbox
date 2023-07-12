@@ -1,0 +1,54 @@
+/* 
+what is a flexbox 
+it is a something that help us to organize the page more
+to use flexbox first we want to have a 
+parent and some children to make in the parent display the flex
+*/
+.parent{
+    background-color: blueviolet;
+    margin: 10px;
+    width: 100%;
+    /* 
+the different between the inline-flex and flex
+inline-flex end with the last child
+flex all the page
+    */
+    display : inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+/* 
+here we have alot of some property to use flexbox
+1- flex-direction :4 valuse [row , column , row-reverse , column-reverse ]
+2- flex-wrap : 3 values [wrap - no-wrap - wrap-reverse ]
++++++++++++++
+3-flex-flow ( flex direction and flex wrap)
+4-justify content => for directions
+[flex-start => [ start from the direction ] , 
+flex-end => [end from the direction in body (ltr , rtl)]
+or we can write left , right , center with no regards to the direction of the flex box
+and 
+space-around => the spaces not equal
+space-inbetween
+space-evenly => the spaces are equal
+*/
+}
+
+.parent div{
+    margin: 8px;
+    padding: 8px;
+}
+.item1{
+    background-color: aqua;
+}
+.item2{
+    background-color: white;
+}
+.item3{
+    background-color: violet;
+}
+.item4{
+
+    background-color: yellow;
+}
